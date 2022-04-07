@@ -22,16 +22,16 @@ python3.9 refine.py ../data/caspo/ExtLiver/dataset.csv ../data/caspo/ExtLiver/pk
 ```
 To run the code such that it finds all models, set flag '-a':
 ```
-python3.8 refine.py <experiments> <network> <optional: -s setup> -i -a
+python3.9refine.py <experiments> <network> <optional: -s setup> -i -a
 
 ```
 To run the threshold model use flag '-t'
 ```
-python3.8 refine.py <experiments> <network> <optional: -s experiments> -i -t
+python3.9 refine.py <experiments> <network> <optional: -s experiments> -i -t
 
 ```
 To run the 2-DNF model use flag '-d'
 ```
-python3.8 refine.py <experiments> <network> <optional: -s experiments> -i -d
+python3.9 refine.py <experiments> <network> <optional: -s experiments> -i -d
 
 ```
